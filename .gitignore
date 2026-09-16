@@ -9,3 +9,17 @@
 /TibcoModernizationAMPS/OutboundWorker/obj
 /TibcoModernizationAMPS/SharedContracts/bin/Debug/net9.0
 /TibcoModernizationAMPS/SharedContracts/obj
+/TibcoAdbMigration/.vs
+/TibcoAdbMigration/src/TibcoAdb.Api/obj
+/TibcoAdbMigration/src/TibcoAdb.Application/bin/Debug/net9.0
+/TibcoAdbMigration/src/TibcoAdb.Application/obj/Debug/net9.0
+/TibcoAdbMigration/src/TibcoAdb.Application/obj
+/TibcoAdbMigration/src/TibcoAdb.Contracts/bin/Debug/net9.0
+/TibcoAdbMigration/src/TibcoAdb.Contracts/obj
+/TibcoAdbMigration/src/TibcoAdb.Domain/bin/Debug/net9.0
+/TibcoAdbMigration/src/TibcoAdb.Domain/obj
+/TibcoAdbMigration/src/TibcoAdb.Infrastructure/obj
+/TibcoAdbMigration/src/TibcoAdb.Publisher.Worker/obj
+/TibcoAdbMigration/src/TibcoAdb.Subscriber.Worker/obj
+/TibcoAdbMigration/tests/TibcoAdb.Tests/bin/Debug/net9.0
+/TibcoAdbMigration/tests/TibcoAdb.Tests/obj
