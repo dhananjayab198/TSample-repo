@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/TibcoModernizationAMPS/.vs
+/TibcoModernizationAMPS/InboundWorker/bin/Debug/net9.0
+/TibcoModernizationAMPS/InboundWorker/obj
+/TibcoModernizationAMPS/OutboundWorker/bin/Debug/net9.0
+/TibcoModernizationAMPS/OutboundWorker/obj
+/TibcoModernizationAMPS/SharedContracts/bin/Debug/net9.0
+/TibcoModernizationAMPS/SharedContracts/obj
