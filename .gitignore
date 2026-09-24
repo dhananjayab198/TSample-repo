@@ -23,3 +23,17 @@
 /TibcoAdbMigration/src/TibcoAdb.Subscriber.Worker/obj
 /TibcoAdbMigration/tests/TibcoAdb.Tests/bin/Debug/net9.0
 /TibcoAdbMigration/tests/TibcoAdb.Tests/obj
+/TibcoMigrationDemo/01-AMPS/.vs
+/TibcoMigrationDemo/01-AMPS/Company.Tibco.Amps.Abstractions/bin/Debug/net8.0
+/TibcoMigrationDemo/01-AMPS/Company.Tibco.Amps.Abstractions/obj
+/TibcoMigrationDemo/01-AMPS/Company.Tibco.Amps.Client/bin/Debug/net8.0
+/TibcoMigrationDemo/01-AMPS/Company.Tibco.Amps.Client/obj
+/TibcoMigrationDemo/01-AMPS/Company.Tibco.Amps.DependencyInjection/bin/Debug/net8.0
+/TibcoMigrationDemo/01-AMPS/Company.Tibco.Amps.DependencyInjection/obj
+/TibcoMigrationDemo/02-ADB/.vs
+/TibcoMigrationDemo/02-ADB/Company.Tibco.Adb.Abstractions/bin/Debug/net8.0
+/TibcoMigrationDemo/02-ADB/Company.Tibco.Adb.Abstractions/obj
+/TibcoMigrationDemo/02-ADB/Company.Tibco.Adb.Core/bin/Debug/net8.0
+/TibcoMigrationDemo/02-ADB/Company.Tibco.Adb.Core/obj
+/TibcoMigrationDemo/02-ADB/Company.Tibco.Adb.Database/obj
+/TibcoMigrationDemo/02-ADB/Company.Tibco.Adb.DependencyInjection/obj
