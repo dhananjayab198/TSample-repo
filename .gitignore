@@ -39,3 +39,7 @@
 /TibcoMigrationDemo/02-ADB/Company.Tibco.Adb.DependencyInjection/obj
 /TibcoMigrationDemo/01-AMPS/Company.Tibco.Amps.Abstractions/bin/Release/net8.0
 /TibcoMigrationDemo/01-AMPS/Company.Tibco.Amps.Client/bin/Release/net8.0
+/TibcoMigrationDemo/01-AMPS/Amps.Demo/.vs/Amps.Demo
+/TibcoMigrationDemo/01-AMPS/Amps.Demo/bin/Release/net8.0
+/TibcoMigrationDemo/01-AMPS/Amps.Demo/obj
+/TibcoMigrationDemo/02-ADB/Company.Tibco.Adb.Database/bin/Debug/net8.0
