@@ -14,4 +14,9 @@
 		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.20" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.20" />
 	</ItemGroup>
+	<ItemGroup>
+	  <Reference Include="Company.Tibco.Amps.Abstractions">
+	    <HintPath>..\..\01-AMPS\Company.Tibco.Amps.Abstractions\bin\Release\net8.0\Company.Tibco.Amps.Abstractions.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
 </Project>

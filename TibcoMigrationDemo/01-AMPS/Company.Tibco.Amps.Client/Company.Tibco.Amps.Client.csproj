@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFramework>net8.0</TargetFramework>
 		<Nullable>enable</Nullable>
@@ -9,8 +9,10 @@
 		<PackageOutputPath>..\..\01-AMPS\NuGetPackages</PackageOutputPath>
 	</PropertyGroup>
 	<ItemGroup>
-		<ProjectReference Include="..\Company.Tibco.Amps.Abstractions\Company.Tibco.Amps.Abstractions.csproj" />
 		<PackageReference Include="AMPS.Client" Version="5.3.5.1" />
 		<PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Company.Tibco.Amps.Abstractions\Company.Tibco.Amps.Abstractions.csproj" />
 	</ItemGroup>
 </Project>
