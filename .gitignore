@@ -43,3 +43,10 @@
 /TibcoMigrationDemo/01-AMPS/Amps.Demo/bin/Release/net8.0
 /TibcoMigrationDemo/01-AMPS/Amps.Demo/obj
 /TibcoMigrationDemo/02-ADB/Company.Tibco.Adb.Database/bin/Debug/net8.0
+/TibcoMigrationDemo/04-Contracts/.vs/Company.Tibco.Contracts
+/TibcoMigrationDemo/04-Contracts/Company.Tibco.Contracts/obj
+/TibcoMigrationDemo/04-Contracts/Company.Tibco.Contracts/bin/Debug/net8.0
+/TibcoMigrationDemo/03-BW/Bw.Processes/obj/Debug/net8.0
+/TibcoMigrationDemo/03-BW/Bw.Processes/obj
+/TibcoMigrationDemo/03-BW/Bw.Api/obj
+/TibcoMigrationDemo/03-BW/.vs
