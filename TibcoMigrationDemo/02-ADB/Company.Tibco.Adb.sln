@@ -10,6 +10,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Tibco.Adb.Database"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Tibco.Adb.DependencyInjection", "Company.Tibco.Adb.DependencyInjection\Company.Tibco.Adb.DependencyInjection.csproj", "{77777777-7777-7777-7777-777777777777}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Tibco.Adb.Messaging", "Company.Tibco.Adb.Messaging\Company.Tibco.Adb.Messaging.csproj", "{B913F1B2-E1B8-EE6D-E999-8B5B04B92762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Tibco.Adb.Processing", "Company.Tibco.Adb.Processing\Company.Tibco.Adb.Processing.csproj", "{9179D98B-4025-A67F-BF25-9C1BD4523190}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Tibco.Adb.Worker", "Company.Tibco.Adb.Worker\Company.Tibco.Adb.Worker.csproj", "{59CCA545-7A74-65DA-7703-82438EA51C79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,8 +38,23 @@ Global
 		{77777777-7777-7777-7777-777777777777}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77777777-7777-7777-7777-777777777777}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77777777-7777-7777-7777-777777777777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B913F1B2-E1B8-EE6D-E999-8B5B04B92762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B913F1B2-E1B8-EE6D-E999-8B5B04B92762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B913F1B2-E1B8-EE6D-E999-8B5B04B92762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B913F1B2-E1B8-EE6D-E999-8B5B04B92762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9179D98B-4025-A67F-BF25-9C1BD4523190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9179D98B-4025-A67F-BF25-9C1BD4523190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9179D98B-4025-A67F-BF25-9C1BD4523190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9179D98B-4025-A67F-BF25-9C1BD4523190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59CCA545-7A74-65DA-7703-82438EA51C79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59CCA545-7A74-65DA-7703-82438EA51C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59CCA545-7A74-65DA-7703-82438EA51C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59CCA545-7A74-65DA-7703-82438EA51C79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A71FFC99-6A49-446C-B15B-59BC27BCC470}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup><TargetFramework>net8.0</TargetFramework></PropertyGroup>
+<ItemGroup>
+  <ProjectReference Include="..\Company.Tibco.Adb.Abstractions\Company.Tibco.Adb.Abstractions.csproj" />
+  <ProjectReference Include="..\Company.Tibco.Adb.Database\Company.Tibco.Adb.Database.csproj" />
+  <ProjectReference Include="..\Company.Tibco.Adb.Messaging\Company.Tibco.Adb.Messaging.csproj" />
+</ItemGroup>
+</Project>

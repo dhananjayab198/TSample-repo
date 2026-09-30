@@ -10,7 +10,6 @@
 	</PropertyGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\Company.Tibco.Adb.Abstractions\Company.Tibco.Adb.Abstractions.csproj" />
-		<ProjectReference Include="..\Company.Tibco.Adb.Core\Company.Tibco.Adb.Core.csproj" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.20" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.20" />
 	</ItemGroup>

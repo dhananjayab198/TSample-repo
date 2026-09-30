@@ -5,13 +5,20 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 	<ItemGroup>
-		<ProjectReference Include="..\Company.Tibco.Adb.Abstractions\Company.Tibco.Adb.Abstractions.csproj" />
-		<ProjectReference Include="..\Company.Tibco.Adb.Database\Company.Tibco.Adb.Database.csproj" />
 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Company.Tibco.Adb.Abstractions\Company.Tibco.Adb.Abstractions.csproj" />
+	  <ProjectReference Include="..\Company.Tibco.Adb.Database\Company.Tibco.Adb.Database.csproj" />
+	  <ProjectReference Include="..\Company.Tibco.Adb.Messaging\Company.Tibco.Adb.Messaging.csproj" />
+	  <ProjectReference Include="..\Company.Tibco.Adb.Processing\Company.Tibco.Adb.Processing.csproj" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Reference Include="Company.Tibco.Amps.DependencyInjection">
 	    <HintPath>..\..\01-AMPS\Company.Tibco.Amps.DependencyInjection\obj\Release\net8.0\Company.Tibco.Amps.DependencyInjection.dll</HintPath>
 	  </Reference>
 	</ItemGroup>
+  <ItemGroup>
+	<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+  </ItemGroup>
 </Project>
