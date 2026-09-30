@@ -8,11 +8,11 @@ namespace Company.Tibco.Amps.Client;
 public sealed class AmpsConnection : IAmpsConnection
 {
     private readonly AmpsOptions _options;
-    private readonly ILogger<AmpsMessaging> _logger;
+    private readonly ILogger<AmpsMessage> _logger;
     private readonly HAClient _client;
     public bool IsConnected { get; private set; }
 
-    public AmpsConnection(IOptions<AmpsOptions> options, ILogger<AmpsMessaging> logger)
+    public AmpsConnection(IOptions<AmpsOptions> options, ILogger<AmpsMessage> logger)
     { 
         _options = options.Value;
         _logger = logger;
