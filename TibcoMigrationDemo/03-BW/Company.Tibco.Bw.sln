@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bw.Processes", "Bw.Processe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bw.Api", "Bw.Api\Bw.Api.csproj", "{F1718C6C-2583-B4F9-177E-CC3E64913DE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Tibco.Bw.Worker", "C:\Users\Dhana\Downloads\TibcoMigrationComplete\03-BW\Company.Tibco.Bw.Worker\Company.Tibco.Bw.Worker.csproj", "{5B29FCA6-27EB-B348-13C1-0EA986EC26A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{F1718C6C-2583-B4F9-177E-CC3E64913DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1718C6C-2583-B4F9-177E-CC3E64913DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1718C6C-2583-B4F9-177E-CC3E64913DE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B29FCA6-27EB-B348-13C1-0EA986EC26A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B29FCA6-27EB-B348-13C1-0EA986EC26A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B29FCA6-27EB-B348-13C1-0EA986EC26A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B29FCA6-27EB-B348-13C1-0EA986EC26A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+<PropertyGroup><TargetFramework>net8.0</TargetFramework></PropertyGroup>
+<ItemGroup>
+<ProjectReference Include="../Company.Tibco.Bw.Processes/Company.Tibco.Bw.Processes.csproj"/>
+<ProjectReference Include="../../01-AMPS/Company.Tibco.Amps.DependencyInjection/Company.Tibco.Amps.DependencyInjection.csproj"/>
+</ItemGroup>
+</Project>

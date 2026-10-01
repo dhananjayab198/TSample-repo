@@ -1,8 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk.Web"><PropertyGroup><TargetFramework>net8.0</TargetFramework><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings></PropertyGroup><ItemGroup><ProjectReference Include="..\Bw.Processes\Bw.Processes.csproj" /><PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.20" /></ItemGroup><ItemGroup>
-  <Reference Include="Company.Tibco.Adb.Core">
-    <HintPath>..\..\02-ADB\Company.Tibco.Adb.Core\bin\Release\net8.0\Company.Tibco.Adb.Core.dll</HintPath>
+﻿<Project Sdk="Microsoft.NET.Sdk.Web"><PropertyGroup><TargetFramework>net8.0</TargetFramework><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings></PropertyGroup><ItemGroup><ProjectReference Include="..\Bw.Processes\Bw.Processes.csproj" /><PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.20" /></ItemGroup><ItemGroup>
+  <Reference Include="Company.Tibco.Adb.Abstractions">
+    <HintPath>..\..\02-ADB\Company.Tibco.Adb.Core\bin\Release\net8.0\Company.Tibco.Adb.Abstractions.dll</HintPath>
   </Reference>
   <Reference Include="Company.Tibco.Adb.Database">
-    <HintPath>..\..\02-ADB\Company.Tibco.Adb.DependencyInjection\bin\Release\net8.0\Company.Tibco.Adb.Database.dll</HintPath>
+    <HintPath>..\..\02-ADB\Company.Tibco.Adb.Database\bin\Release\net8.0\Company.Tibco.Adb.Database.dll</HintPath>
   </Reference>
-</ItemGroup></Project>
+  <Reference Include="Company.Tibco.Adb.DependencyInjection">
+    <HintPath>..\..\02-ADB\Company.Tibco.Adb.DependencyInjection\bin\Release\net8.0\Company.Tibco.Adb.DependencyInjection.dll</HintPath>
+  </Reference>
+  <Reference Include="Company.Tibco.Amps.Abstractions">
+    <HintPath>..\..\01-AMPS\Company.Tibco.Amps.Abstractions\bin\Release\net8.0\Company.Tibco.Amps.Abstractions.dll</HintPath>
+  </Reference>
+</ItemGroup>
+
+</Project>

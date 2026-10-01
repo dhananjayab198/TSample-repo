@@ -1,17 +1,29 @@
-<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><TargetFramework>net8.0</TargetFramework><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings><GeneratePackageOnBuild>true</GeneratePackageOnBuild><PackageId>Company.Tibco.Bw.Processes</PackageId><Version>1.0.0</Version><PackageOutputPath>..\..\artifacts\local-nuget</PackageOutputPath></PropertyGroup><ItemGroup>
+﻿<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><TargetFramework>net8.0</TargetFramework><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings><GeneratePackageOnBuild>true</GeneratePackageOnBuild><PackageId>Company.Tibco.Bw.Processes</PackageId><Version>1.0.0</Version><PackageOutputPath>..\..\artifacts\local-nuget</PackageOutputPath></PropertyGroup><ItemGroup>
   <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
   <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
 </ItemGroup><ItemGroup>
   <Reference Include="Company.Tibco.Adb.Abstractions">
-    <HintPath>..\..\02-ADB\Company.Tibco.Adb.Core\bin\Release\net8.0\Company.Tibco.Adb.Abstractions.dll</HintPath>
+    <HintPath>..\..\02-ADB\Company.Tibco.Adb.Abstractions\bin\Release\net8.0\Company.Tibco.Adb.Abstractions.dll</HintPath>
+  </Reference>
+  <Reference Include="Company.Tibco.Adb.Database">
+    <HintPath>..\..\02-ADB\Company.Tibco.Adb.Database\bin\Release\net8.0\Company.Tibco.Adb.Database.dll</HintPath>
+  </Reference>
+  <Reference Include="Company.Tibco.Adb.DependencyInjection">
+    <HintPath>..\..\02-ADB\Company.Tibco.Adb.DependencyInjection\bin\Release\net8.0\Company.Tibco.Adb.DependencyInjection.dll</HintPath>
   </Reference>
   <Reference Include="Company.Tibco.Adb.Core">
     <HintPath>..\..\02-ADB\Company.Tibco.Adb.Core\bin\Release\net8.0\Company.Tibco.Adb.Core.dll</HintPath>
   </Reference>
-  <Reference Include="Company.Tibco.Adb.Database">
-    <HintPath>..\..\02-ADB\Company.Tibco.Adb.DependencyInjection\bin\Release\net8.0\Company.Tibco.Adb.Database.dll</HintPath>
+  <Reference Include="Company.Tibco.Adb.Messaging">
+    <HintPath>..\..\02-ADB\Company.Tibco.Adb.Messaging\bin\Release\net8.0\Company.Tibco.Adb.Messaging.dll</HintPath>
   </Reference>
-  <Reference Include="Company.Tibco.Adb.DependencyInjection">
-    <HintPath>..\..\02-ADB\Company.Tibco.Adb.DependencyInjection\bin\Release\net8.0\Company.Tibco.Adb.DependencyInjection.dll</HintPath>
+  <Reference Include="Company.Tibco.Amps.Abstractions">
+    <HintPath>..\..\01-AMPS\Company.Tibco.Amps.Abstractions\bin\Release\net8.0\Company.Tibco.Amps.Abstractions.dll</HintPath>
+  </Reference>
+  <Reference Include="Company.Tibco.Adb.Processing">
+    <HintPath>..\..\02-ADB\Company.Tibco.Adb.Processing\bin\Release\net8.0\Company.Tibco.Adb.Processing.dll</HintPath>
+  </Reference>
+  <Reference Include="Company.Tibco.Adb.Worker">
+    <HintPath>..\..\02-ADB\Company.Tibco.Adb.Worker\bin\Release\net8.0\Company.Tibco.Adb.Worker.dll</HintPath>
   </Reference>
 </ItemGroup></Project>
